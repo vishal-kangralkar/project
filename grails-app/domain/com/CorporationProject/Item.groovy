@@ -43,5 +43,5 @@ class Item{
 	static constraints = { upcEAN(unique:true)}
 	
  
-	
+	static belongsTo = [orders:Order]
 }

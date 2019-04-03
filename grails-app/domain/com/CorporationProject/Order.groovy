@@ -45,6 +45,7 @@ class Order {
 		lastUpdate nullable:true 
 		
     }
+	static mapping={table 'orders'}
 	
-	
+	static hasmany=[items:Item]
 }
