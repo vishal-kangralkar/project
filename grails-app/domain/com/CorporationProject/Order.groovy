@@ -39,7 +39,12 @@ class Order {
 	String type
 
     static constraints = {
+		processorReceived nullable:true 
+		posReceived nullable:true
+		dateAdded nullable:true 
+		lastUpdate nullable:true 
+		
     }
 	
-	static hasMany = [items:Item]
+	
 }
