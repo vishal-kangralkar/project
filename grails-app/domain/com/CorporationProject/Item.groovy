@@ -44,4 +44,5 @@ class Item{
 	
  
 	static belongsTo = [orders:Order]
+	static hasmany=[items:Item]
 }
