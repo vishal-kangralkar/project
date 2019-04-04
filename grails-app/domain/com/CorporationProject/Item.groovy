@@ -4,6 +4,7 @@ package com.CorporationProject
 class Item{
 	String upcEAN
 	
+	
 	String storePosDepartment
 	
 	String storePosDepartmentDesc
@@ -39,7 +40,7 @@ class Item{
 	String vendorCode
 	
 	String vendorItemCode
-	
+
 	
 	static constraints = { upcEAN(unique:true)}
 	
