@@ -47,5 +47,6 @@ class Order {
     }
 	static mapping={table 'orders'}
 	
-	static hasmany=[items:Item]
+	
+	static hasMany=[items:Item]
 }

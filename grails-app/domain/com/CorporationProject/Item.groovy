@@ -40,8 +40,12 @@ class Item{
 	
 	String vendorItemCode
 	
+	
 	static constraints = { upcEAN(unique:true)}
 	
  
-	static belongsTo = [orders:Order]
+static hasMany =[orders:Order]
+
+	static belongsTo =[Order]
+	
 }
